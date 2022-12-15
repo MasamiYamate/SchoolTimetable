@@ -1,8 +1,11 @@
-<meta charset="utf-8">
-<div id="t1"></div>
-<script src="./holiday_jp.js"></script>
-<script>
-    const holidays = holiday_jp.between(new Date(), new Date());
-    const jsonString = JSON.stringify(holidays);
-    document.getElementById("t1").innerHTML = "{\"holidays\":" + jsonString + "}";
-</script>
+{
+    "holidays": [
+        {
+            "date": "2010-09-20T00:00:00.000Z",
+            "week": "月",
+            "week_en": "Monday",
+            "name": "敬老の日",
+            "name_en": "Respect for the Aged Day"
+        }
+    ]
+}
