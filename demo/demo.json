@@ -1,0 +1,11 @@
+{
+    "holidays": [
+        {
+            "date": "2010-09-20T00:00:00.000Z",
+            "week": "月",
+            "week_en": "Monday",
+            "name": "敬老の日",
+            "name_en": "Respect for the Aged Day"
+        }
+    ]
+}
